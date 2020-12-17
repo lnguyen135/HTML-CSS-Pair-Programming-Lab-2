@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Creating Fixed Header and Footer with CSS</title>
+<style>
+    /* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+    body{        
+        padding-top: 110px;
+        padding-bottom: 40px;
+    }
+    .container{
+        width: 80%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }    
+    /* Some more styles to beutify this example */
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 1px 1px;
+        display: inline-block;
+    }
+    .container p{
+        line-height: 200px; /* Create scrollbar to test positioning */
+    }
+</style>
+</head>
+<body>
+    <div class="fixed-header">
+        <div class="container">
+            <nav>
+                <a href="#"><h2 style="color:orange;">My Country Vietnam</h2></a>
+                
+            </nav>
+        </div>
+    </div>
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 585px; /* Should be removed. Only for demonstration */
+}
+
+.left  {
+  width: 20%;
+  
+}
+
+.middle {
+  width: 50%;
+}
+.right {
+width: 30%;
+}
+
+</style>
+    <div class="row">
+  <div class="column left" style="background-color:clear;">
+    <img src="C:\Users\Lan\CodeDifferentProject\RR-JS-HTML-Resume\images\Halong.jpg" alt="Trulli" width="150" height="150">
+  </div>
+  <div class="column middle" style="background-color:clear;">
+    <h2>Welcome to Vietnam</h2>
+    <p>A land of staggering natural beauty and cultural complexities, of dynamic megacities and hill-tribe villages, Vietnam is both exotic and compelling.</p>
+  <div id="more" style="display:none;">
+    <p>History & Culture: 
+	
+Vietnamese culture is complex, diverse and represents something of a history lesson. The nation's labyrinthine, teeming trading quarters are rich in indigenous crafts and reflect centuries-old mercantile influences. Ancient temples display distinctly Chinese influences in the north and Hindu origins in the south. Meanwhile the broad, tree-lined boulevards and grand state buildings that grace the capital date from the French colonial period. And it's impossible to forget Vietnam's pivotal position close to the epicentre of East Asian power and prosperity, for its cities' skylines are defined by clusters of glass-and-steel corporate HQs and sleek luxury hotels.</p>
+    
+</div>
+<a href="https://br.pinterest.com/pin/98516310583494294/" id="link"style="color:orange;">Read More</a>`
+  </div>
+  
+  <div class="column right" style="background-color:#ccc;">
+    <h2>Attractios</h2>
+	<hr>
+    <ul>
+  <li><a  href="https://www.lonelyplanet.com/vietnam/central-vietnam/hoi-an/attractions/hoi-an-old-town/a/poi-sig/1158047/357874"style="color:orange;">Hoi An Old Town</a></li>
+  <li><a href="https://www.lonelyplanet.com/vietnam/north-central-vietnam/attractions/phong-nha-ke-bang-national-park/a/poi-sig/1388512/1336564"style="color:orange;">Phong Nha-Ke Bang National Park</a></li>
+  <li><a href="https://www.lonelyplanet.com/vietnam/north-central-vietnam/phong-nha-cave/attractions/hang-son-doong/a/poi-sig/1529542/357910"style="color:orange;">Hang Son Doong</a></li>
+  <li><a href="https://www.lonelyplanet.com/vietnam/north-central-vietnam/phong-nha-cave/attractions/paradise-cave/a/poi-sig/1390928/357910"style="color:orange;">Paradise Cave</a></li>
+</ul>
+<h2>Vietnamese Food </h2>
+
+
+<hr>
+<p>Vietnamese food is distinct and unforgettable. The cuisine relies on a balance of salty, sweet, sour and hot flavours, achieved through use of nuoc mam, a fermented fish sauce, cane sugar, the juice of kalamansi citrus fruit or tamarind and chilli peppers. <br> <br> Dishes use plenty of fresh herbs but tend not to be overly spicy, as chilli sauces are served separately.  </p>
+  </div>
+  
+  
+</div>  
+<style>
+h5 {text-align: center;}
+</style>
+    <div class="fixed-footer"> 
+	
+        <div class="container" ><h5> Copyright <a href="C:\Users\Lan\CodeDifferentProject\Lab"style="color:orange;">My Country Vietname</a>All right reverved</h5></div>        
+    </div>
+</body>
+</html>
